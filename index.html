@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f7fb" />
+    <meta name="description" content="Sala de encontro dos Filhos de Maria." />
+    <meta property="og:title" content="Entre Nós — encontros que aproximam" />
+    <meta property="og:description" content="Abra uma sala e encontre o seu grupo." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="share-card.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Entre Nós — encontros que aproximam" />
+    <meta name="twitter:image" content="share-card.svg" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Entre Nós" />
+    <title>Entre Nós — sala de encontro</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='13' fill='%233f6f9a'/%3E%3Cpath d='M20 8v24M10 15h20' fill='none' stroke='%23e7ce8a' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="site-shell" id="homeView">
+      <header class="topbar">
+        <a class="brand" href="#inicio" aria-label="Entre Nós, início">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M13 20c0-5 3-8 8-8s8 3 8 8-3 8-8 8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="12.5" cy="20" r="2.2" fill="currentColor"/><path d="M20 16v8m-4-4h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+          <span class="brand-copy"><strong>entre nós</strong><small>FILHOS DE MARIA</small></span>
+        </a>
+        <nav class="top-nav" aria-label="Navegação principal">
+          <span class="top-note">✦ Em comunhão</span>
+          <button class="button button-small button-primary install-app-button" id="installApp" type="button" aria-label="Instalar Entre Nós como app"><span aria-hidden="true">↓</span> Baixar app</button>
+          <button class="button button-small button-outline" id="navJoin" type="button">Entrar pelo convite</button>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="inicio">
+          <div class="hero-copy">
+            <span class="eyebrow"><span class="eyebrow-dot"></span> FILHOS DE MARIA</span>
+            <h1>Nosso lugar<br /><em>de encontro.</em></h1>
+            <p class="hero-text">Fé, amizade e oração — pertinho, mesmo de longe.</p>
+            <div class="hero-actions">
+              <button class="button button-primary" id="heroCreate" type="button">
+                Abrir sala <span aria-hidden="true">↗</span>
+              </button>
+              <button class="button button-quiet" id="heroJoin" type="button">
+                <span class="button-icon" aria-hidden="true">⌁</span> Entrar pelo convite
+              </button>
+            </div>
+            <div class="hero-values" aria-label="Fé, amizade e oração"><span>✦ Fé</span><i></i><span>♡ Amizade</span><i></i><span>✧ Oração</span></div>
+          </div>
+
+          <div class="hero-art" aria-label="Ilustração de uma sala aconchegante com pessoas conversando">
+            <div class="art-halo"></div>
+            <div class="art-window"><div class="window-sun"></div><div class="window-line line-one"></div><div class="window-line line-two"></div></div>
+            <div class="art-plant plant-left"><i></i><i></i><i></i><b></b></div>
+            <div class="art-plant plant-right"><i></i><i></i><i></i><b></b></div>
+            <div class="art-card">
+              <div class="art-card-top"><span class="live-dot"></span><span>ENCONTRO DE HOJE</span><span class="art-lock" aria-hidden="true">✳</span></div>
+              <div class="people-row">
+                <div class="portrait portrait-one"><span>Lu</span><i></i></div>
+                <div class="portrait portrait-two"><span>Ma</span><i></i></div>
+                <div class="portrait portrait-three"><span>Jo</span><i></i></div>
+                <div class="portrait portrait-four"><span>+</span></div>
+              </div>
+              <div class="art-card-bottom"><strong>Que bom ter você aqui.</strong><span>♡</span></div>
+            </div>
+            <div class="floating-note note-left"><span class="note-icon note-prayer">✧</span><span><b>Com Maria</b><small>em cada encontro</small></span></div>
+            <div class="floating-note note-right"><span class="note-icon note-heart">♡</span><span><b>Em comunhão</b><small>perto de quem importa</small></span></div>
+            <div class="art-floor"></div>
+          </div>
+        </section>
+
+        <div class="marian-divider" aria-hidden="true"><span></span><b>✦</b><span></span></div>
+      </main>
+
+      <footer class="footer">
+        <a class="footer-link site-link" href="https://filhossdemaria.com.br" target="_blank" rel="noreferrer">
+          <span class="footer-link-icon" aria-hidden="true">✦</span><span><small>Nosso site:</small><strong>filhossdemaria.com.br</strong></span><span class="footer-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="footer-link whatsapp-link" href="https://chat.whatsapp.com/IBENVrGTmVwHqc5P4eUObX" target="_blank" rel="noreferrer">
+          <span class="whatsapp-logo" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M16 3.4A12.4 12.4 0 0 0 5.4 22.2L4 28l5.9-1.5A12.4 12.4 0 1 0 16 3.4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12.2 10.1c-.3-.7-.6-.7-.9-.7h-.7c-.3 0-.7.1-1 .5-.4.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.8c.2.3 2.6 4.1 6.3 5.5 3.1 1.2 3.7 1 4.4.9.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.6.2-1.8-.1-.2-.4-.3-.8-.5l-2.6-1.2c-.4-.1-.6-.2-.9.2-.3.4-1 1.2-1.2 1.5-.2.3-.5.3-.9.1-.4-.2-1.7-.6-3.3-2-1.2-1.1-2-2.4-2.2-2.8-.2-.4 0-.6.2-.8.2-.2.4-.5.6-.7.2-.2.3-.4.4-.7.1-.3 0-.5-.1-.7l-1.1-2.7Z" fill="currentColor"/></svg></span>
+          <span><small>Nosso Grupo:</small><strong>WhatsApp Filhos de Maria</strong></span><span class="footer-arrow" aria-hidden="true">↗</span>
+        </a>
+      </footer>
+    </div>
+
+    <main class="room-view" id="roomView" hidden>
+      <header class="room-header">
+        <a class="brand room-brand" href="#inicio" id="roomHome" aria-label="Voltar ao início">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M13 20c0-5 3-8 8-8s8 3 8 8-3 8-8 8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="12.5" cy="20" r="2.2" fill="currentColor"/><path d="M20 16v8m-4-4h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+          <span class="brand-copy"><strong>entre nós</strong><small>FILHOS DE MARIA</small></span>
+        </a>
+        <div class="room-heading"><div><span class="room-live"><i></i> SUA SALA</span><h1 id="roomTitle">Encontro de hoje</h1></div><div class="room-header-actions"><button class="invite-button" id="copyInvite" type="button"><span aria-hidden="true">↗</span> Copiar convite</button><button class="icon-button minimize-call-button" id="minimizeCall" type="button" aria-label="Minimizar chamada em janela flutuante" title="Janela flutuante"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M12 13h6v5h-6z"/><path d="M6 8h5"/></svg></button><button class="icon-button screenshot-button" id="captureButton" type="button" aria-label="Salvar imagem somente com as pessoas" title="Salvar imagem da chamada"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.5"/></svg></button></div></div>
+        <button class="icon-button leave-top" id="leaveTop" type="button" aria-label="Sair da sala" title="Sair da sala">×</button>
+      </header>
+
+      <section class="call-layout" aria-label="Sala de chamada">
+        <div class="call-stage">
+          <div class="stage-toolbar"><div class="stage-status"><span class="stage-dot"></span> SALA PRONTA</div><button class="panel-shortcut" id="peopleToggle" type="button" aria-expanded="false" aria-controls="sidePanel"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3.5 19v-1.4a5.5 5.5 0 0 1 11 0V19z"/><circle cx="17" cy="9" r="2.3"/><path d="M16 14a4.5 4.5 0 0 1 4.5 4.5v.5h-4"/></svg> Pessoas</button></div>
+          <div class="video-grid">
+            <article class="video-tile self-tile" id="selfTile" data-participant-id="local-host">
+              <video id="selfVideo" autoplay muted playsinline hidden></video>
+              <div class="self-placeholder" id="selfPlaceholder"><div class="avatar avatar-self">?</div><span class="camera-off-label">Sua câmera está desligada</span></div>
+              <div class="live-reaction" id="liveReaction" aria-live="polite" hidden></div>
+              <span class="hand-raised-indicator" id="handRaisedIndicator" role="status" aria-label="Mão levantada" title="Mão levantada" hidden>✋</span>
+              <div class="tile-caption"><span class="caption-avatar">?</span><span id="selfNameLabel">Você</span><span class="you-tag">VOCÊ</span><span class="mic-indicator" id="micIndicator" aria-label="Microfone desligado">⌁</span></div>
+            </article>
+            <article class="video-tile welcome-tile" id="welcomeTile">
+              <div class="welcome-decoration deco-one"></div><div class="welcome-decoration deco-two"></div>
+              <div class="welcome-content"><span class="welcome-flower" aria-hidden="true">✦</span><span class="eyebrow">FILHOS DE MARIA</span><h2>Que bom<br />te encontrar.</h2><button class="button button-light button-invite" id="stageInvite" type="button">Copiar convite <span aria-hidden="true">↗</span></button></div>
+              <div class="tile-caption guest-caption"><span class="caption-avatar caption-flower">✿</span><span>Sala de encontro</span></div>
+            </article>
+          </div>
+          <div class="participation-controls" aria-label="Como você quer participar?">
+            <span class="participation-label">SUA PARTICIPAÇÃO</span>
+            <button class="participation-button" id="participationPray" type="button" aria-pressed="false"><span aria-hidden="true">🙏</span> Posso rezar</button>
+            <button class="participation-button" id="participationListen" type="button" aria-pressed="false"><span aria-hidden="true">👀</span> Só acompanhando</button>
+          </div>
+          <div class="call-controls" aria-label="Controles da chamada">
+            <button class="control-button media-control is-off" id="micToggle" type="button" aria-pressed="false"><span class="control-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0M12 18v3m-4 0h8"/><path class="icon-slash" d="m4 4 16 16"/></svg></span><span>Ativar mic</span></button>
+            <button class="control-button media-control is-off" id="cameraToggle" type="button" aria-pressed="false"><span class="control-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="12" height="12" rx="3"/><path d="m15 10 6-3v10l-6-3z"/><path class="icon-slash" d="m4 4 16 16"/></svg></span><span>Ligar câmera</span></button>
+            <button class="control-button screen-control" id="screenToggle" type="button" aria-label="Compartilhar tela" aria-pressed="false"><span class="control-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8m-4-4v4"/></svg></span><span>Tela</span></button>
+            <div class="reaction-control" id="reactionControl">
+              <button class="control-button reaction-toggle" id="reactionToggle" type="button" aria-label="Abrir reações" aria-controls="reactionPicker" aria-expanded="false"><span class="control-icon" aria-hidden="true">☺</span><span>Reagir</span></button>
+            </div>
+            <button class="control-button" id="chatToggle" type="button" aria-pressed="false"><span class="control-icon chat-bubble-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5H6l-3 2v-5.1A7.5 7.5 0 1 1 20 11.5Z"/><path d="M8 11h8M8 14.5h5"/></svg></span><span>Conversa</span></button>
+            <button class="control-button hand-control" id="raiseHandBottom" type="button" aria-pressed="false"><span class="control-icon" aria-hidden="true">✋</span><span>Levantar mão</span></button>
+            <button class="control-button control-leave" id="leaveCall" type="button"><span class="control-icon" aria-hidden="true">↗</span><span>Sair da sala</span></button>
+          </div>
+        </div>
+        <aside class="side-panel" id="sidePanel">
+          <div class="panel-top"><div><span class="eyebrow">SEU ENCONTRO</span><h2>Pessoas</h2></div><button class="icon-button panel-close" id="panelClose" type="button" aria-label="Recolher painel">×</button></div>
+          <div class="panel-content" id="peoplePanel" role="region" aria-label="Pessoas na sala"><div class="people-count"><span>Participantes</span><strong id="participantCount">1</strong></div><div class="person-row" id="personRow" data-participant-id="local-host"><span class="person-avatar" id="personInitial">?</span><span class="person-details"><strong id="personName">Você</strong><small id="personRole">Anfitrião</small></span><span class="person-audio" id="personMic">⌁</span></div><div id="remotePeople" aria-live="polite"></div><div class="guest-empty" id="guestEmpty"><span class="empty-icon" aria-hidden="true">♡</span><h3>Chame o grupo.</h3><p class="people-invite-note">Use o convite no alto da sala para chamar alguém.</p></div></div>
+          <div class="panel-content chat-panel" id="chatPanel" role="region" aria-label="Conversa da sala" hidden>
+            <div class="chat-intro">
+              <div class="chat-header-main">
+                <div class="chat-title"><span class="chat-sparkle" aria-hidden="true">✧</span><strong>Conversa</strong></div>
+                <div class="chat-tabs" role="tablist" aria-label="Conversa e intenções">
+                  <button class="chat-tab active" id="chatTabButton" type="button" role="tab" aria-selected="true" aria-controls="chatTabPanel">Chat</button>
+                  <button class="chat-tab" id="intentionsTabButton" type="button" role="tab" aria-selected="false" aria-controls="intentionsTabPanel">Intenções</button>
+                </div>
+              </div>
+              <button class="icon-button chat-close" id="chatClose" type="button" aria-label="Fechar conversa">×</button>
+            </div>
+            <div class="chat-tab-panel" id="chatTabPanel" role="tabpanel" aria-labelledby="chatTabButton">
+              <div class="messages" id="messages" aria-live="polite"><div class="system-message">Manda o primeiro oi.</div></div>
+              <form class="chat-form" id="chatForm"><label class="sr-only" for="chatInput">Escreva uma mensagem</label><input id="chatInput" type="text" maxlength="240" placeholder="Escreva uma mensagem…" autocomplete="off" /><button type="submit" aria-label="Enviar mensagem">↗</button></form>
+            </div>
+            <div class="intentions-tab-panel" id="intentionsTabPanel" role="tabpanel" aria-labelledby="intentionsTabButton" hidden>
+              <div class="intentions-heading"><strong>Intenções de oração</strong><span>Compartilhadas com quem está nesta sala.</span></div>
+              <div class="intentions-list" id="intentionsList" aria-live="polite"><p class="intentions-empty" id="intentionsEmpty">Ainda não há intenções. Você pode adicionar a primeira.</p></div>
+              <form class="intention-form" id="intentionForm"><label class="sr-only" for="intentionInput">Escreva uma intenção de oração</label><input id="intentionInput" type="text" maxlength="180" placeholder="Escreva uma intenção…" autocomplete="off" /><button type="submit">Adicionar</button></form>
+            </div>
+          </div>
+          <div class="panel-content admin-panel" id="adminPanel" role="region" aria-label="Administração da sala" hidden>
+            <div class="admin-scroll">
+              <div class="admin-panel-heading"><button class="admin-back" id="adminBack" type="button">← Pessoas</button><strong>Administração</strong></div>
+              <section class="admin-section" aria-labelledby="permissionsTitle"><h3 id="permissionsTitle">Permissões</h3>
+                <label class="setting-row"><span><strong>Microfone</strong><small>Participantes podem ativar</small></span><input type="checkbox" data-admin-setting="microphone" checked /><i aria-hidden="true"></i></label>
+                <label class="setting-row"><span><strong>Câmera</strong><small>Participantes podem ativar</small></span><input type="checkbox" data-admin-setting="camera" checked /><i aria-hidden="true"></i></label>
+                <label class="setting-row"><span><strong>Reações</strong><small>Participantes podem reagir</small></span><input type="checkbox" data-admin-setting="reactions" checked /><i aria-hidden="true"></i></label>
+              </section>
+              <section class="admin-section" aria-labelledby="appearanceTitle"><h3 id="appearanceTitle">Visual da chamada</h3>
+                <label class="setting-row"><span><strong>Tema escuro</strong><small>Escurecer o fundo e os painéis</small></span><input id="darkThemeToggle" type="checkbox" /><i aria-hidden="true"></i></label>
+                <label class="accent-setting" for="callAccentSelect"><span><strong>Cor de destaque</strong><small>Escolha a cor da sala</small></span><select class="theme-select" id="callAccentSelect"><option value="blue">Azul sereno</option><option value="rose">Rosa</option><option value="lavender">Lavanda</option><option value="gold">Dourado</option></select></label>
+              </section>
+              <section class="admin-section" aria-labelledby="roomAccessTitle"><h3 id="roomAccessTitle">Entrada</h3>
+                <label class="setting-row"><span><strong>Sala privada</strong><small>Novos convites pedem aprovação</small></span><input type="checkbox" data-admin-setting="privateRoom" /><i aria-hidden="true"></i></label>
+              </section>
+              <section class="admin-section" aria-labelledby="chatSettingsTitle"><h3 id="chatSettingsTitle">Conversa</h3>
+                <label class="setting-row"><span><strong>Permitir conversa</strong><small>Participantes podem enviar mensagens</small></span><input type="checkbox" data-admin-setting="chat" checked /><i aria-hidden="true"></i></label>
+                <label class="setting-row"><span><strong>Exibir conversa fechada</strong><small>Mostrar histórico quando estiver fechada</small></span><input type="checkbox" data-admin-setting="showClosedChat" checked /><i aria-hidden="true"></i></label>
+                <button class="admin-action" id="clearChatButton" type="button"><span aria-hidden="true">⌫</span><span><strong>Limpar conversa</strong><small>Apaga as mensagens desta sala</small></span></button>
+              </section>
+              <section class="admin-section" aria-labelledby="moderationTitle"><h3 id="moderationTitle">Moderação</h3>
+                <p class="admin-hint">Toque em um participante para ver as ações disponíveis.</p>
+                <div class="admin-request-empty" id="requestEmpty">Nenhum pedido para entrar.</div>
+              </section>
+              <p class="admin-note">As opções de moderação e acesso serão aplicadas a todos quando a sala tiver conexão ao vivo.</p>
+            </div>
+          </div>
+        </aside>
+      </section>
+      <div class="toast" id="toast" role="status" aria-live="polite"></div>
+      <section class="reaction-picker" id="reactionPicker" role="dialog" aria-label="Escolher emoji" hidden>
+        <div class="emoji-picker-heading"><strong>Reações</strong><button class="emoji-picker-close" id="closeEmojiPicker" type="button" aria-label="Fechar seletor">×</button></div>
+        <div class="quick-reaction-row">
+          <div class="quick-reaction-list" id="quickReactions" role="group" aria-label="Reações rápidas"></div>
+          <button class="custom-emoji-button" id="customEmojiButton" type="button" aria-label="Escolher outro emoji" title="Escolher outro emoji">＋</button>
+        </div>
+        <form class="custom-emoji-form" id="customEmojiForm" hidden>
+          <label class="sr-only" for="customEmojiInput">Escolher emoji</label>
+          <div><input id="customEmojiInput" type="text" placeholder="Toque para abrir o teclado de emojis" autocomplete="off" /><button type="submit" aria-label="Enviar reação">↗</button></div>
+          <small>Escolha no teclado do aparelho. No Windows, use Win + .</small>
+        </form>
+        <div class="emoji-picker-footer" id="emojiPickerAdmin" hidden><button id="openAdminFromEmoji" type="button"><span aria-hidden="true">⚙</span> Administração da sala</button></div>
+      </section>
+      <div class="participant-menu" id="participantMenu" role="dialog" aria-label="Ações do participante" hidden>
+        <strong id="participantMenuName">Participante</strong>
+        <button type="button" data-participant-action="mute">Silenciar microfone</button>
+        <button type="button" data-participant-action="camera">Desligar câmera</button>
+        <button type="button" data-participant-action="remove">Remover e bloquear convite</button>
+      </div>
+    </main>
+
+    <dialog class="entry-dialog" id="entryDialog" aria-labelledby="dialogTitle">
+      <form method="dialog" class="dialog-dismiss"><button class="icon-button" aria-label="Fechar janela">×</button></form>
+      <div class="dialog-mark" aria-hidden="true">✳</div>
+      <span class="eyebrow" id="dialogEyebrow">FILHOS DE MARIA</span>
+      <h2 id="dialogTitle">Abrir sala</h2>
+      <p class="dialog-copy" id="dialogCopy">Seu nome e o nome do encontro.</p>
+      <form id="entryForm" class="entry-form">
+        <label for="displayName">Seu nome</label><input id="displayName" name="displayName" maxlength="32" placeholder="Como você quer aparecer?" autocomplete="name" required />
+        <label class="profile-photo-label" for="profilePhotoInput">Foto de perfil <span>(opcional)</span></label>
+        <div class="profile-photo-control"><span class="profile-preview" id="profilePreview" aria-hidden="true">?</span><label class="profile-file-button" for="profilePhotoInput">Escolher foto</label><input id="profilePhotoInput" type="file" accept="image/*" /></div>
+        <label class="remember-profile"><span><strong>Lembrar meus dados neste aparelho</strong><small>Nome e foto ficam salvos só aqui</small></span><input id="rememberProfile" type="checkbox" /><i aria-hidden="true"></i></label>
+        <div id="createFields"><label for="meetingName">Nome do encontro <span>(pode mudar depois)</span></label><input id="meetingName" name="meetingName" maxlength="48" value="Encontro de hoje" required /></div>
+        <div id="joinFields" hidden><label for="inviteCode">Código ou link do convite</label><input id="inviteCode" name="inviteCode" placeholder="Cole o convite que recebeu" autocomplete="url" /></div>
+        <button class="button button-primary button-full" id="entrySubmit" type="submit">Criar minha sala <span aria-hidden="true">↗</span></button>
+      </form>
+      <div class="dialog-foot"><span aria-hidden="true">✦</span> Em comunhão.</div>
+    </dialog>
+    <dialog class="leave-dialog" id="leaveDialog" aria-labelledby="leaveDialogTitle">
+      <div class="leave-mark" aria-hidden="true">↗</div>
+      <h2 id="leaveDialogTitle">Tem certeza que deseja se retirar?</h2>
+      <p>Você poderá entrar novamente pelo convite.</p>
+      <div class="leave-actions"><button class="button button-outline" id="stayInRoom" type="button">NÃO</button><button class="button button-danger" id="confirmLeave" type="button">SIM</button></div>
+    </dialog>
+    <dialog class="leave-dialog install-dialog" id="installDialog" aria-labelledby="installDialogTitle">
+      <div class="leave-mark install-mark" aria-hidden="true">↓</div>
+      <h2 id="installDialogTitle">Instalar Entre Nós</h2>
+      <p id="installDialogCopy">Use o menu do navegador para instalar o app.</p>
+      <div class="leave-actions"><button class="button button-primary" id="closeInstallDialog" type="button">Entendi</button></div>
+    </dialog>
+  </body>
+</html>
