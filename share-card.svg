@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="84" y1="64" x2="1104" y2="598" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FAFD"/>
+      <stop offset="1" stop-color="#EAF1F8"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="720" y1="105" x2="1074" y2="538" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4EFF6"/>
+      <stop offset="1" stop-color="#DDE8F2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="34" fill="url(#bg)"/>
+  <circle cx="1011" cy="130" r="198" fill="#fff" fill-opacity=".48"/>
+  <circle cx="1011" cy="130" r="156" stroke="#7392B0" stroke-opacity=".14" stroke-width="2"/>
+  <circle cx="1011" cy="130" r="120" stroke="#7392B0" stroke-opacity=".10" stroke-width="2"/>
+  <rect x="694" y="86" width="408" height="458" rx="28" fill="url(#tile)" stroke="#D5E0EA" stroke-width="2"/>
+  <rect x="746" y="135" width="304" height="205" rx="20" fill="#D5E4F0"/>
+  <circle cx="898" cy="223" r="54" fill="#F1D9C2" stroke="#fff" stroke-opacity=".55" stroke-width="8"/>
+  <path d="M824 315c7-37 34-59 74-59s67 22 74 59" fill="#7D9DBB"/>
+  <rect x="751" y="369" width="294" height="117" rx="18" fill="#fff" fill-opacity=".82"/>
+  <circle cx="791" cy="410" r="14" fill="#77A27E"/>
+  <text x="819" y="416" fill="#687E95" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">SALA DE ENCONTRO</text>
+  <text x="785" y="458" fill="#405F7E" font-family="Georgia,serif" font-size="24">Que bom ter você aqui.</text>
+  <rect x="83" y="100" width="66" height="66" rx="22" fill="#3F6F9A"/>
+  <path d="M115.5 114v38m-19-19h38" stroke="#E7CE8A" stroke-linecap="round" stroke-width="3"/>
+  <text x="83" y="265" fill="#365B80" font-family="Georgia,serif" font-size="78">entre nós</text>
+  <text x="88" y="310" fill="#8394A7" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="5">FILHOS DE MARIA</text>
+  <path d="M88 359h87" stroke="#C4A96D" stroke-width="2"/>
+  <text x="83" y="421" fill="#4A6681" font-family="Segoe UI,Arial,sans-serif" font-size="28">Encontros que aproximam.</text>
+  <text x="83" y="470" fill="#8091A3" font-family="Segoe UI,Arial,sans-serif" font-size="19">Fé, amizade e oração — pertinho, mesmo de longe.</text>
+</svg>
